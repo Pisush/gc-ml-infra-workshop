@@ -147,7 +147,7 @@ func enrichTxn(aeroClient *aero.Client, incomingTxn *webTxn, enrichedTxn *enrich
 
 	// v1 through v28
 	for i := 0; i <= len(record.Bins)-3; i++ {
-		pcaValues[i] = tryFloat(record.Bins["v"+strconv.Itoa(i)], 0)
+		pcaValues[i] = tryFloat(record.Bins["V"+strconv.Itoa(i)], 0)
 	}
 
 	// next populate 2D array
