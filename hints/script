@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# extract header
+echo "\"ID\",\"set_name\",$(head -n1 creditcard.csv)" > creditcard.aerospike.csv
+
+# extend all rows with random ID and set name
+while read -r line
+  do echo "\"${RANDOM}${RANDOM}\",\"creditcard\",$line" >> creditcard.aerospike.csv
+done < creditcard.csv
+
+# remove old/faulty header
+#sed -i '2d' creditcard.aerospike.csv
+#sed -i '' '2d' creditcard.aerospike.csv

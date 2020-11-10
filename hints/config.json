@@ -1,0 +1,145 @@
+{
+  "version": "2.0",
+  "input_type": "dsv",
+  "dsv_config": {
+    "delimiter": ",",
+    "n_columns_datafile": 33,
+    "header_exist": true
+  },
+
+  "mappings": [
+    {
+      "key": { "column_name": "ID", "type": "string" },
+
+      "set": { "column_name": "set_name", "type": "string" },
+
+      "bin_list": [
+        {
+          "name": "TimeBin",
+          "value": { "column_name": "Time", "type": "integer" }
+        },
+        {
+          "name": "V1Bin",
+          "value": { "column_name": "V1", "type": "float" }
+        },
+        {
+          "name": "V2Bin",
+          "value": { "column_name": "V2", "type": "float" }
+        },
+        {
+          "name": "V3Bin",
+          "value": { "column_name": "V3", "type": "float" }
+        },
+        {
+          "name": "V4Bin",
+          "value": { "column_name": "V4", "type": "float" }
+        },
+        {
+          "name": "V5Bin",
+          "value": { "column_name": "V5", "type": "float" }
+        },
+        {
+          "name": "V6Bin",
+          "value": { "column_name": "V6", "type": "float" }
+        },
+        {
+          "name": "V7Bin",
+          "value": { "column_name": "V7", "type": "float" }
+        },
+        {
+          "name": "V8Bin",
+          "value": { "column_name": "V8", "type": "float" }
+        },
+        {
+          "name": "V9Bin",
+          "value": { "column_name": "V9", "type": "float" }
+        },
+        {
+          "name": "V10Bin",
+          "value": { "column_name": "V10", "type": "float" }
+        },
+        {
+          "name": "V11Bin",
+          "value": { "column_name": "V11", "type": "float" }
+        },
+        {
+          "name": "V12Bin",
+          "value": { "column_name": "V12", "type": "float" }
+        },
+        {
+          "name": "V13Bin",
+          "value": { "column_name": "V13", "type": "float" }
+        },
+        {
+          "name": "V14Bin",
+          "value": { "column_name": "V14", "type": "float" }
+        },
+        {
+          "name": "V15Bin",
+          "value": { "column_name": "V15", "type": "float" }
+        },
+        {
+          "name": "V16Bin",
+          "value": { "column_name": "V16", "type": "float" }
+        },
+        {
+          "name": "V17Bin",
+          "value": { "column_name": "V17", "type": "float" }
+        },
+        {
+          "name": "V18Bin",
+          "value": { "column_name": "V18", "type": "float" }
+        },
+        {
+          "name": "V19Bin",
+          "value": { "column_name": "V19", "type": "float" }
+        },
+        {
+          "name": "V20Bin",
+          "value": { "column_name": "V20", "type": "float" }
+        },
+        {
+          "name": "V21Bin",
+          "value": { "column_name": "V21", "type": "float" }
+        },
+        {
+          "name": "V22Bin",
+          "value": { "column_name": "V22", "type": "float" }
+        },
+        {
+          "name": "V23Bin",
+          "value": { "column_name": "V23", "type": "float" }
+        },
+        {
+          "name": "V24Bin",
+          "value": { "column_name": "V24", "type": "float" }
+        },
+        {
+          "name": "V25Bin",
+          "value": { "column_name": "V25", "type": "float" }
+        },
+        {
+          "name": "V26Bin",
+          "value": { "column_name": "V26", "type": "float" }
+        },
+        {
+          "name": "V27Bin",
+          "value": { "column_name": "V27", "type": "float" }
+        },
+        {
+          "name": "V28Bin",
+          "value": { "column_name": "V28", "type": "float" }
+        },
+        {
+          "name": "AmountBin",
+          "value": { "column_name": "Amount", "type": "float" }
+        },
+        {
+          "name": "ClassBin",
+          "value": { "column_name": "Class", "type": "string" }
+        }
+      ]
+    }
+  ]
+}
+
